@@ -13,8 +13,8 @@
         android:layout_marginStart="300dp"
         android:layout_marginEnd="300dp"
         android:layout_marginBottom="500dp"
-        android:rotation="0"
         android:background="@color/Violeta"
+        android:rotation="0"
         android:text="Layane Souza - Dispositivo Móvel"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,11 +24,26 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="173dp"
-        android:layout_height="86dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="348dp"
         android:backgroundTint="@color/Violeta"
         android:text="Button"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="584dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Layane Souza"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
